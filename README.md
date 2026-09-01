@@ -1,12 +1,14 @@
 
 
-```markdown
+
 # AquaGuard: Predictive Flood Defense System — Backend & ML Engine
 
 [![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=flat&logo=nodedotjs)](https://nodejs.org/)
 [![Python](https://img.shields.io/badge/Python-Machine_Learning-3776AB?style=flat&logo=python)](https://www.python.org/)
 [![Firebase](https://img.shields.io/badge/Firebase-Admin_SDK-FFCA28?style=flat&logo=firebase)](https://firebase.google.com/)
 [![ESP32](https://img.shields.io/badge/ESP32-IoT_Hardware-E52B50?style=flat&logo=espressif)](https://www.espressif.com/)
+
+```markdown
 
 ## Project Abstract
 AquaGuard is an IoT-driven cyber-physical system (CPS) designed for automated flood prediction and defense. This repository contains the **Centralized Node.js Backend and Machine Learning Engine**. It operates as the critical processing layer between the physical ESP32 hardware telemetry and the Next.js presentation dashboard.
