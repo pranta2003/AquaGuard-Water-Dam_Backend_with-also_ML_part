@@ -64,13 +64,13 @@ The predictive capabilities are powered by a **Gaussian Naive Bayes Classifier**
 
 ### Calibrated Countdown Mapping
 
-| Class | Range (s) | Midpoint | `show_countdown` Trigger |
+| Class | Range (cm) | Midpoint | `show_countdown` Trigger |
 | --- | --- | --- | --- |
-| **CRITICAL** | 0–10 | ~5s | `true` |
-| **WARNING** | 10–25 | ~17s | `true` |
-| **MODERATE** | 25–45 | ~35s | `false` |
-| **SAFE** | 45–120 | ~80s | `false` |
-| *(Source: `SEVERITY_CLASSES` configuration)*<br> |  |  |  |
+| **CRITICAL** | 0–10 | ~4s | `true` |
+| **WARNING** | 10–25 | ~8s | `true` |
+| **MODERATE** | 25–45 | ~12s | `false` |
+| **SAFE** | 45–120 | ~upper then 15s | `false` |
+| **Values make with synthetic dataset of mine with that prototype. SO obviously can changeable.** |
 
 ## System Data Flow Pipeline
 
@@ -129,3 +129,5 @@ The server will initialize on `http://localhost:4000`, establish a persistent co
 
 This repository utilizes GitHub Actions to verify backend integrity on every push to the `main` branch. The automated pipeline boots an Ubuntu runner, installs all Node.js and Python dependencies, and executes syntax validation on the core `server.js` file to ensure zero downtime.
 
+License : MIT
+Feel free to use but make request with proper recruitment for hardware part
