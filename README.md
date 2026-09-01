@@ -8,7 +8,7 @@
 [![Firebase](https://img.shields.io/badge/Firebase-Admin_SDK-FFCA28?style=flat&logo=firebase)](https://firebase.google.com/)
 [![ESP32](https://img.shields.io/badge/ESP32-IoT_Hardware-E52B50?style=flat&logo=espressif)](https://www.espressif.com/)
 
-```markdown
+
 
 ## Project Abstract
 AquaGuard is an IoT-driven cyber-physical system (CPS) designed for automated flood prediction and defense. This repository contains the **Centralized Node.js Backend and Machine Learning Engine**. It operates as the critical processing layer between the physical ESP32 hardware telemetry and the Next.js presentation dashboard.
@@ -16,8 +16,11 @@ AquaGuard is an IoT-driven cyber-physical system (CPS) designed for automated fl
 ## Hardware Prototype & IoT Integration
 AquaGuard relies on physical water dynamics to trigger its software pipeline. The hardware acts as the ground-truth data source for the machine learning model.
 
+```markdown
+
 ![AquaGuard Hardware Prototype](WhatsApp%20Image%202026-08-15%20at%206.57.18%20PM_2.jpeg)
 
+```
 **Core Hardware Components:**
 * **Microcontroller:** ESP32 handling localized hysteresis filtering and Firebase data pushing.
 * **Sensors:** 5x Analog Water Level Sensors at staggered elevations.
