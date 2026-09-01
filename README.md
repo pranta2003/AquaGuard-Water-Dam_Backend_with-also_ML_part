@@ -16,11 +16,10 @@ AquaGuard is an IoT-driven cyber-physical system (CPS) designed for automated fl
 ## Hardware Prototype & IoT Integration
 AquaGuard relies on physical water dynamics to trigger its software pipeline. The hardware acts as the ground-truth data source for the machine learning model.
 
-//```markdown
+<div align="center">
+<img src="https://github.com/user-attachments/assets/996f1988-f3fc-4bdd-a38a-7362fe337dee" alt="AquaGuard Hardware Prototype" width="80%" />
 
-![AquaGuard Hardware Prototype]
-<img width="850" height="1100" alt="WhatsApp Image 2026-07-28 at 1 21 26 PM" src="https://github.com/user-attachments/assets/d9d9f2fc-86a6-4d90-8b9b-37d002ced20c" />
-
+</div>
 
 
 **Core Hardware Components:**
