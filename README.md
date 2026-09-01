@@ -131,4 +131,5 @@ The server will initialize on `http://localhost:4000`, establish a persistent co
 This repository utilizes GitHub Actions to verify backend integrity on every push to the `main` branch. The automated pipeline boots an Ubuntu runner, installs all Node.js and Python dependencies, and executes syntax validation on the core `server.js` file to ensure zero downtime.
 
 ## License : MIT
-Feel free to use but make request with proper recruitment for hardware part
+
+Feel free to use and adapt this system for your own hardware integrations. If you require details regarding the physical hardware assembly, wiring schematics, or the ESP32 C++ logic, please connect with me directly. Access to the hardware documentation can be approved based on requirements.
