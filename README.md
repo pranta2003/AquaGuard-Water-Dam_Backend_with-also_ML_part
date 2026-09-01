@@ -18,7 +18,8 @@ AquaGuard relies on physical water dynamics to trigger its software pipeline. Th
 
 ```markdown
 
-![AquaGuard Hardware Prototype](WhatsApp%20Image%202026-08-15%20at%206.57.18%20PM_2.jpeg)
+![AquaGuard Hardware Prototype]<img width="850" height="1100" alt="WhatsApp Image 2026-07-28 at 1 21 26 PM" src="https://github.com/user-attachments/assets/d9d9f2fc-86a6-4d90-8b9b-37d002ced20c" />
+
 
 ```
 **Core Hardware Components:**
@@ -129,5 +130,5 @@ The server will initialize on `http://localhost:4000`, establish a persistent co
 
 This repository utilizes GitHub Actions to verify backend integrity on every push to the `main` branch. The automated pipeline boots an Ubuntu runner, installs all Node.js and Python dependencies, and executes syntax validation on the core `server.js` file to ensure zero downtime.
 
-License : MIT
+## License : MIT
 Feel free to use but make request with proper recruitment for hardware part
